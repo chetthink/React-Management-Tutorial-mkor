@@ -7,11 +7,11 @@
         "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
     },
     "dependencies": {
-        "body=parserr": "^1.18.3",
-        "express": "^4.16.4"
+        "body-parser": "^1.18.3",
+        "express": "^4.17.3",
+        "nodemon": "^2.0.15"
     },
     "devDependencies": {
-        "concurrently": "^4.0.1"
+        "concurrently": "^4.1.2"
     }
-
 }
